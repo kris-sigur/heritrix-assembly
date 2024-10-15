@@ -54,34 +54,11 @@
 			<fileMode>0755</fileMode>
    			<directoryMode>0755</directoryMode>
 		</fileSet>
-		<fileSet>
-			<directory>target/deduplicator</directory>
-			<outputDirectory>/deduplicator-${is.landsbokasafn.deduplicator.version}</outputDirectory>
-			<includes>
-				<include>**</include>
-			</includes>
-			<excludes>
-				<exclude>bin/</exclude>
-				<exclude>heritrix/</exclude>
-                <exclude>lib/log4j-1.2.17.jar</exclude>
-			</excludes>
-		</fileSet>
- 		<fileSet>
-			<directory>target/deduplicator/bin</directory>
-			<outputDirectory>/deduplicator-${is.landsbokasafn.deduplicator.version}/bin</outputDirectory>
-			<fileMode>0755</fileMode>
-   			<directoryMode>0755</directoryMode>
-		</fileSet>
 	</fileSets>
     <files>
         <file>
             <source>target/heritrix/heritrix-${org.archive.heritrix.version}/lib/log4j-1.2.17.jar</source>
             <outputDirectory>/heritrix-${org.archive.heritrix.version}/lib/</outputDirectory>
-            <destName>logforjay-1.2.17.jar</destName>
-        </file>
-        <file>
-            <source>target/deduplicator/lib/log4j-1.2.17.jar</source>
-            <outputDirectory>/deduplicator-${is.landsbokasafn.deduplicator.version}/lib</outputDirectory>
             <destName>logforjay-1.2.17.jar</destName>
         </file>
     </files>

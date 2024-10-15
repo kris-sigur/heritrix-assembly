@@ -16,7 +16,6 @@
 	<properties>
 		<revision>1.0.0-SNAPSHOT</revision>
 		<org.archive.heritrix.version>3.4.0-20240909</org.archive.heritrix.version>
-		<is.landsbokasafn.deduplicator.version>3.2.0-SNAPSHOT</is.landsbokasafn.deduplicator.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 

@@ -21,22 +21,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>is.landsbokasafn.deduplicator</groupId>
-			<artifactId>deduplicator-dist</artifactId>
-			<version>${is.landsbokasafn.deduplicator.version}</version>
-			<classifier>heritrix</classifier>
-			<type>tar.gz</type>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>is.landsbokasafn.deduplicator</groupId>
-			<artifactId>deduplicator-dist</artifactId>
-			<version>${is.landsbokasafn.deduplicator.version}</version>
-			<classifier>dist</classifier>
-			<type>tar.gz</type>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>is.landsbokasafn.vefsafn</groupId>
 			<artifactId>heritrix-addons</artifactId>
 			<version>${revision}</version>

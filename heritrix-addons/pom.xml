@@ -50,12 +50,6 @@
       <version>${org.archive.heritrix.version}</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>is.landsbokasafn.deduplicator</groupId>
-      <artifactId>deduplicator-heritrix</artifactId>
-      <version>${is.landsbokasafn.deduplicator.version}</version>
-      <scope>provided</scope>
-    </dependency>
   </dependencies>
 </project>
 
